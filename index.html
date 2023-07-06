@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97578b2bb4.js" crossorigin="anonymous"></script>
+    <title>Todo List</title>
+</head>
+<body>
+
+    <div id="preloader"></div>
+    <div class="time-delay" style="display:none;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YHae7JDkdog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+    <div class="container">
+        <h1 class="title">
+            Todo List 
+        </h1>
+        <div class="todo-list">
+            <div class="list-head">
+                <input type="text" class="entered-list">
+                <button class="add-list">Add</button>
+            </div>
+            
+            <div class="tasks">
+                <!-- <div class="item ">
+                    <p>New Items Here</p>
+                    <div class="item-btn">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <!-- preloader -->
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function() {
+            loader.style.display = 'none';
+        })
+    </script>
+</body>
+</html>
